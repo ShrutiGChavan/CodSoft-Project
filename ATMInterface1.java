@@ -62,7 +62,7 @@ class ATM {
     }
 }
 
-public class ATMInterface {
+public class ATMInterface1 {
     public static void main(String[] args) {
         BankAccount userAccount = new BankAccount(1000); // Initial balance set to 1000
         ATM atm = new ATM(userAccount);
